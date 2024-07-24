@@ -210,10 +210,10 @@ DEBUG: Platform config
          "isGHApp": false,
          "isGhe": false,
          "userDetails": {"username": "amorphina", "name": "A S", "id": 7421511},
-         "userEmail": "netvisio@gmail.com"
+         "userEmail": "redacted@gmail.com"
        },
        "renovateUsername": "amorphina"
-DEBUG: Using platform gitAuthor: A S <netvisio@gmail.com>
+DEBUG: Using platform gitAuthor: A S <redacted@gmail.com>
 DEBUG: Adding token authentication for api.github.com (hostType=github) to hostRules
 DEBUG: Using baseDir: /tmp/renovate
 DEBUG: Using cacheDir: /tmp/renovate/cache
