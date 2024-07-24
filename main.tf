@@ -1,6 +1,6 @@
 resource "helm_release" "argocd" {
   name             = "argocd"
-  repository       = "oci://gitlab.example.com/group/subgroup"
+  repository       = "oci://gitlab.example.com:5000/group/subgroup"
   chart            = "my-chart"
   create_namespace = true
   namespace        = "argocd"
