@@ -3,43 +3,5 @@
   "extends": [
     "config:recommended",
     ":semanticCommits"
-  ],
-  "labels": [
-    "renovate",
-    "{{{datasource}}}",
-    "{{{updateType}}}"
-  ],
-  "configMigration": true,
-  "packageRules": [
-    {
-      "matchDatasources": [
-        "pypi"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "groupName": "Pypi dependencies Minor and Patch"
-    },
-    {
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "groupName": "NPM dependencies Minor and Patch"
-    },
-    {
-      "matchDatasources": [
-        "repology"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "groupName": "Repology dependencies Minor and Patch"
-    }
   ]
 }
