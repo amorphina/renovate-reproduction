@@ -123,7 +123,7 @@ export RENOVATE_PLATFORM=github
 renovate --fork-processing=enabled
 ```
 
-## Errors
+## Logs
 
 ```log
 ubuntu@adc348421c84:/mnt$ renovate --fork-processing=enabled
